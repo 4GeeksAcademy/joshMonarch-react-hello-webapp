@@ -1,0 +1,22 @@
+#root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 8rem;
+    height: 12rem;
+    overflow-wrap: normal;
+}
+
+.h-40 {
+    height: 40% !important;
+}
+
+.bi:hover,
+.bi-heart-fill {
+    color: red;
+}
